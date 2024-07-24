@@ -44,6 +44,7 @@ nextflow_workflow {
                         []
                     ]}
                 input[1] = Channel.empty()
+                input[2] = Channel.empty()
                 """
             }
         }
@@ -74,6 +75,7 @@ nextflow_workflow {
                         file("\${test_data_directory}/wmparc.nii.gz", checkIfExists: true),
                         []
                     ]}
+                input[2] = Channel.empty()
                 """
             }
         }
@@ -109,6 +111,7 @@ nextflow_workflow {
                         file("\${test_data_directory}/wmparc.nii.gz", checkIfExists: true),
                         []
                     ]}
+                input[2] = Channel.empty()
                 """
             }
         }
