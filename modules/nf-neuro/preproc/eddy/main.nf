@@ -38,6 +38,7 @@ process PREPROC_EDDY {
     export OMP_NUM_THREADS=$task.cpus
     export OPENBLAS_NUM_THREADS=1
     export ANTS_RANDOM_SEED=7468
+    export MRTRIX_RNG_SEED=12345
 
     orig_bval=$bval
     # Concatenate DWIs
@@ -62,7 +63,7 @@ process PREPROC_EDDY {
     # If topup has been run before
     if [[ -f "$topup_fieldcoef" ]]
     then
-        mrconvert $corrected_b0s b0_corrected.nii.gz -coord 3 0 -axes 0,1,2 -nthreads $task.cpus
+        mrconvert $corrected_b0s b0_corrected.nii.gz -coord 3 0 -axes 0,1,2 -nthreads 0
         bet b0_corrected.nii.gz ${prefix}__b0_bet.nii.gz -m -R\
             -f $bet_topup_before_eddy_f
 
@@ -80,7 +81,7 @@ process PREPROC_EDDY {
         bet ${prefix}__b0.nii.gz ${prefix}__b0_bet.nii.gz -m -R -f $bet_prelim_f
         scil_volume_math.py convert ${prefix}__b0_bet_mask.nii.gz ${prefix}__b0_bet_mask.nii.gz --data_type uint8 -f
         maskfilter ${prefix}__b0_bet_mask.nii.gz dilate ${prefix}__b0_bet_mask_dilated.nii.gz\
-            --npass $dilate_b0_mask_prelim_brain_extraction -nthreads $task.cpus
+            --npass $dilate_b0_mask_prelim_brain_extraction -nthreads 0
         scil_volume_math.py multiplication ${prefix}__b0.nii.gz ${prefix}__b0_bet_mask_dilated.nii.gz\
             ${prefix}__b0_bet.nii.gz --data_type float32 -f
 
