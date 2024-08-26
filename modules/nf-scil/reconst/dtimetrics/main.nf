@@ -64,7 +64,7 @@ process RECONST_DTIMETRICS {
     if ( task.ext.rd ) args += " --rd ${prefix}__rd.nii.gz"
     if ( task.ext.tensor ) args += " --tensor ${prefix}__tensor.nii.gz"
     if ( task.ext.nonphysical ) args += " --non-physical ${prefix}__nonphysical.nii.gz"
-    if ( task.ext.pulsation ) args += " --pulsation ${prefix}__pulsation_std_dwi.nii.gz"
+    if ( task.ext.pulsation ) args += " --pulsation ${prefix}__pulsation.nii.gz"
     if ( task.ext.residual ) args += " --residual ${prefix}__residual.nii.gz"
 
 
