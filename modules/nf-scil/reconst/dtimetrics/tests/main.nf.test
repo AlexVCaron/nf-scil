@@ -63,7 +63,7 @@ nextflow_process {
                     niftiMD5SUM(process.out.mode.get(0).get(1), 6),
                     niftiMD5SUM(process.out.norm.get(0).get(1), 6),
                     niftiMD5SUM(process.out.rd.get(0).get(1), 6),
-                    niftiMD5SUM(process.out.tensor.get(0).get(1), 6),
+                    tensorMD5SUM(process.out.tensor.get(0).get(1), 6),
                     niftiMD5SUM(process.out.nonphysical.get(0).get(1), 6),
                     niftiMD5SUM(process.out.pulsation_std_dwi.get(0).get(1), 6),
                     niftiMD5SUM(process.out.residual.get(0).get(1), 6),
