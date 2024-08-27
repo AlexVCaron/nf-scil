@@ -1,7 +1,7 @@
 {
     "reconst - dtimetrics_with_b0mask": {
         "content": [
-            "test__fa.nii.gz:md5,4da8c2e248c0d93a018d0add9bbc6438",
+            "test__fa.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,dfa08c2241b5f2140067ba11bd404083",
             [
                 "versions.yml:md5,f057a83131297624fb6d9db93df8d749"
             ]
@@ -10,30 +10,30 @@
             "nf-test": "0.9.0-rc1",
             "nextflow": "24.04.4"
         },
-        "timestamp": "2024-08-26T14:44:59.223632"
+        "timestamp": "2024-08-27T03:26:32.289067"
     },
     "reconst - dtimetrics": {
         "content": [
-            "test__ad.nii.gz:md5,9aef42f05ef76cda519c1bf1a4d09e5a",
-            "test__evecs.nii.gz:md5,5382bf25d965b3d08b1779b3c26542f3",
-            "test__evecs_v1.nii.gz:md5,b3aafa3d64ab5189adbb1dd449aea59b",
-            "test__evecs_v2.nii.gz:md5,de7388d34e37e843e39d7b39837fa4aa",
-            "test__evecs_v3.nii.gz:md5,516d14d6647a03f4a2bd7f51cae20fce",
-            "test__evals.nii.gz:md5,b5b6e6a3c13b72a89f4626169dc791a8",
-            "test__evals_e1.nii.gz:md5,9aef42f05ef76cda519c1bf1a4d09e5a",
-            "test__evals_e2.nii.gz:md5,d3b5247e8d017e737a3f32ccf6944a32",
-            "test__evals_e3.nii.gz:md5,e749580da032647acf62dfb9405bcbda",
-            "test__fa.nii.gz:md5,f17769290198fa8b258b228c591a799a",
-            "test__ga.nii.gz:md5,8ce650bf62a5ff0979d29020ae4e3fa0",
-            "test__rgb.nii.gz:md5,00f60c043c956b0e95393071a493df37",
-            "test__md.nii.gz:md5,12baefb237c2b972cf0c6980b0c10681",
-            "test__mode.nii.gz:md5,f6722dd9ae95c74358fd17dfa214f354",
-            "test__norm.nii.gz:md5,69399c44ee62d1c52e271f39a1bac4be",
-            "test__rd.nii.gz:md5,02afa7a113d7946f3a36a0365c1d5f26",
-            "test__tensor.nii.gz:md5,91a3c8d626ffa8c99495a058b84eead0",
-            "test__nonphysical.nii.gz:md5,63905c6dc26e33011608bba5f2c0e2f9",
-            "test__pulsation_std_dwi.nii.gz:md5,fedf3ac5e312d43791269a9e4a18f48c",
-            "test__residual.nii.gz:md5,eccbda5e154711cba41b3afc1365326d",
+            "test__ad.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,1dae19b16a2c7cc384b6ce5a68ab9f07",
+            "test__evecs.nii.gz:md5:header,cf167a79a7fa1d40d19a4832ecfc4347,data,3054a7e554f2518823b381da2c068395",
+            "test__evecs_v1.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,49965ee13c0feb3dba0a4dec1bafb117",
+            "test__evecs_v2.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,1748ab28a49d5abf16d513dfb4ca9fbc",
+            "test__evecs_v3.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,cd1be1547c201eec7ae9eb4c85bfd4d9",
+            "test__evals.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,67ff29cc9db90ca5a089225cee64fa64",
+            "test__evals_e1.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,1dae19b16a2c7cc384b6ce5a68ab9f07",
+            "test__evals_e2.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,376d4a594c6a800f364845a4579a8960",
+            "test__evals_e3.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,b62a3882953eaffddc382b8cbf4a4289",
+            "test__fa.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,58313229f0472569b8e9f7e9559b4290",
+            "test__ga.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,fdc5f3c0336cc392c8aede6a1eed1867",
+            "test__rgb.nii.gz:md5:header,3b360d735c09a676a349168f1a242d24,data,381a2d8ad3ab20f563578fa2440c8040",
+            "test__md.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,c1fccb91d4b562549b4984729cea0421",
+            "test__mode.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,5216a00f3248ac17f29f22a9118fa8d5",
+            "test__norm.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,4dd2d6e4baad99378153a62ce9d49209",
+            "test__rd.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,6bd34517bf87078af5da5fbbb4512096",
+            "test__tensor.nii.gz:md5:header,ac3e6b7bab27d0b89f37712d2d15aeac,data,6140eed2034b77a158fc2a6d0d138488",
+            "test__nonphysical.nii.gz:md5:header,724f90775973bcb341d32f707932d524,data,918e179feee77099c8733bfaea92a0a2",
+            "test__pulsation_std_dwi.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,a943b0ed51da8af37391dba71c19ee17",
+            "test__residual.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,cefff20984e7c76706c2d780b788b13e",
             [
                 [
                     {
@@ -96,6 +96,6 @@
             "nf-test": "0.9.0-rc1",
             "nextflow": "24.04.4"
         },
-        "timestamp": "2024-08-26T14:58:17.511641"
+        "timestamp": "2024-08-27T03:26:13.336504"
     }
 }
