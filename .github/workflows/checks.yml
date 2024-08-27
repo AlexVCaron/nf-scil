@@ -121,10 +121,10 @@ jobs:
       fail-fast: false
       matrix:
         path: [ "${{ fromJson(needs.nf-test-changes.outputs.paths) }}" ]
-        profile: [ "docker" ]
         exclude:
           - path: subworkflows/nf-scil/load_test_data
         include:
+          - profile: docker
           - runner: scilus-nf-scil-runners
           - path: modules/nf-scil/registration/easyreg
             profile: do-not-run
