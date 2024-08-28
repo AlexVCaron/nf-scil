@@ -1,7 +1,7 @@
 [
     {
         "id": "nft-nifti",
-        "latest": "0.0.1-rc4",
+        "latest": "0.0.1-rc5",
         "url": "https://github.com/AlexVCaron/nft-nifti",
         "github": "AlexVCaron/nft-nifti",
         "description": "Provides support for NIFTI files.",
@@ -9,8 +9,8 @@
         "keywords": [],
         "releases": [
             {
-                "version": "0.0.1-rc4",
-                "url": "https://github.com/AlexVCaron/nft-nifti/releases/download/0.0.1-rc4/nft-nifti-0.0.1-rc4.jar"
+                "version": "0.0.1-rc5",
+                "url": "https://github.com/AlexVCaron/nft-nifti/releases/download/0.0.1-rc5/nft-nifti-0.0.1-rc5.jar"
             }
         ]
     }

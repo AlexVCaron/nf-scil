@@ -15,10 +15,10 @@
     "reconst - dtimetrics": {
         "content": [
             "test__ad.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,4f25a36e673a8ad8dcc2319d14c2a182",
-            "test__evecs.nii.gz:md5:header,cf167a79a7fa1d40d19a4832ecfc4347,data,3201643c7eb9359dbde39bf2dc155878",
-            "test__evecs_v1.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,1e279901fd209c8e2579559836c70628",
-            "test__evecs_v2.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,272aa52b2f995f54b8aaae295f2d33e7",
-            "test__evecs_v3.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,26b2eba7856e656edc0056a41ba672cd",
+            "test__evecs.nii.gz:md5:header,cf167a79a7fa1d40d19a4832ecfc4347,data,be9e2568e8c1bc0d40eeea0a82e7ffce",
+            "test__evecs_v1.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,7d56ad8a38b4cf367a322d95a905555a",
+            "test__evecs_v2.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,5dc219176488bdb97a20e564824f0277",
+            "test__evecs_v3.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,677c4a0d313b6f64a57e1beb2bc2ae19",
             "test__evals.nii.gz:md5:header,50caec4171d82c44952a861a22faa132,data,43dca43a92fddde74a12ee370ef60dc8",
             "test__evals_e1.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,4f25a36e673a8ad8dcc2319d14c2a182",
             "test__evals_e2.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,1ed817255f2291e6729768a84a20da2c",
@@ -95,6 +95,6 @@
             "nf-test": "0.9.0-rc1",
             "nextflow": "24.04.4"
         },
-        "timestamp": "2024-08-28T15:55:24.802142"
+        "timestamp": "2024-08-28T19:09:19.797842"
     }
 }
