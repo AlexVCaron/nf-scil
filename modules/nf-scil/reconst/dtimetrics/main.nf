@@ -24,7 +24,9 @@ process RECONST_DTIMETRICS {
         tuple val(meta), path("*__ga.nii.gz")                      , emit: ga, optional: true
         tuple val(meta), path("*__rgb.nii.gz")                     , emit: rgb, optional: true
         tuple val(meta), path("*__md.nii.gz")                      , emit: md, optional: true
-        tuple val(meta), path("*__mode.nii.gz")                    , emit: mode, optional: true
+        // The MODE metric computed by Dipy is invalid, because Negative Definite tensors
+        // are not handled correctly. This is still unknown by Dipy, we should address it.
+        //tuple val(meta), path("*__mode.nii.gz")                    , emit: mode, optional: true
         tuple val(meta), path("*__norm.nii.gz")                    , emit: norm, optional: true
         tuple val(meta), path("*__rd.nii.gz")                      , emit: rd, optional: true
         tuple val(meta), path("*__tensor.nii.gz")                  , emit: tensor, optional: true
@@ -59,7 +61,7 @@ process RECONST_DTIMETRICS {
     if ( task.ext.ga ) args += " --ga ${prefix}__ga.nii.gz"
     if ( task.ext.rgb ) args += " --rgb ${prefix}__rgb.nii.gz"
     if ( task.ext.md ) args += " --md ${prefix}__md.nii.gz"
-    if ( task.ext.mode ) args += " --mode ${prefix}__mode.nii.gz"
+    // if ( task.ext.mode ) args += " --mode ${prefix}__mode.nii.gz"
     if ( task.ext.norm ) args += " --norm ${prefix}__norm.nii.gz"
     if ( task.ext.rd ) args += " --rd ${prefix}__rd.nii.gz"
     if ( task.ext.tensor ) args += " --tensor ${prefix}__tensor.nii.gz"
@@ -107,7 +109,6 @@ process RECONST_DTIMETRICS {
     touch ${prefix}__ga.nii.gz
     touch ${prefix}__rgb.nii.gz
     touch ${prefix}__md.nii.gz
-    touch ${prefix}__mode.nii.gz
     touch ${prefix}__norm.nii.gz
     touch ${prefix}__rd.nii.gz
     touch ${prefix}__tensor.nii.gz
