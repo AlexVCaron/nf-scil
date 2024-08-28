@@ -23,8 +23,8 @@
             "test__evals_e1.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,4f25a36e673a8ad8dcc2319d14c2a182",
             "test__evals_e2.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,1ed817255f2291e6729768a84a20da2c",
             "test__evals_e3.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,4b75463e2827f18b4123a2f15f4a2768",
-            "test__fa.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,7d4d98ab6c159706da5a464a77601070",
-            "test__ga.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,a4428ec03e86c458b29ec1b68e5cb0c4",
+            "test__fa.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,58313229f0472569b8e9f7e9559b4290",
+            "test__ga.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,fdc5f3c0336cc392c8aede6a1eed1867",
             "test__rgb.nii.gz:md5:header,3b360d735c09a676a349168f1a242d24,data,381a2d8ad3ab20f563578fa2440c8040",
             "test__md.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,5bff4900bbd9400325fd2d09c1c71bbb",
             "test__norm.nii.gz:md5:header,5dd9805cc46413a0795dcb739b518660,data,3d4a414e68cc0ce3595f6f57878508a1",
@@ -95,6 +95,6 @@
             "nf-test": "0.9.0-rc1",
             "nextflow": "24.04.4"
         },
-        "timestamp": "2024-08-28T15:38:59.171653"
+        "timestamp": "2024-08-28T15:55:24.802142"
     }
 }
