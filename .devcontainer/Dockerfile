@@ -1,6 +1,9 @@
-FROM scilus/scilus:1.6.0
+FROM scilus/scilus:2.0.2
+
+ARG NFTEST_VERSION
 
 ENV NODE_MAJOR=18
+ENV NFTEST_VERSION=${NFTEST_VERSION:-0.9.0-rc1}
 
 RUN apt update && apt install -y \
         curl \
